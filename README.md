@@ -1,4 +1,4 @@
-# Day69-Blog-with-users
+# Alfred-Blog
 
 Pequeño proyecto FULL STACK, de Blog.
 
