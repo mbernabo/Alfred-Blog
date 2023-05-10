@@ -10,9 +10,11 @@ from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 from flask_gravatar import Gravatar
 from functools import wraps
 import os
-# from dotenv import load_dotenv
-#
-# load_dotenv()
+
+if os.environ.get('FLASK_ENV') == 'development':
+    from dotenv import load_dotenv
+    load_dotenv()
+
 
 app = Flask(__name__)
 
