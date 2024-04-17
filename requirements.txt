@@ -20,5 +20,5 @@ visitor>=0.1.3
 Werkzeug==2.2.3
 WTForms>=2.3.3
 email-validator
-gunicorn==20.1.0
+gunicorn==22.0.0
 psycopg2-binary==2.9.6
